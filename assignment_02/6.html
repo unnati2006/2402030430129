@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Pricing</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', serif;
+            background-color: #f8f8f8;
+            color: #1f3b32;
+            text-align: center;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #1f3b32;
+        }
+        .description {
+            font-size: 16px;
+            color: #3c4f40;
+            margin-bottom: 40px;
+        }
+        .pricing-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #043d33;
+            color: white;
+            padding: 30px;
+            width: 280px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            font-size: 18px;
+            color: #f79c29;
+            margin-bottom: 5px;
+        }
+        .card p {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .price {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f79c29;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #e08923;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>OUR PRICES</h1>
+        <p class="description">
+            You can start exercising any day. Your subscription starts from the moment of payment.
+        </p>
+
+        <div class="pricing-cards">
+            <!-- One-Time Visit -->
+            <div class="card">
+                <h3>ONE-TIME VISIT</h3>
+                <p>Duration of classes - 90 minutes</p>
+                <div class="price">50$</div>
+                <button class="btn">Join The Lesson</button>
+            </div>
+
+            <!-- Group Lessons -->
+            <div class="card">
+                <h3>GROUP LESSONS</h3>
+                <p>Duration of classes - 90 minutes</p>
+                <div class="price">70$</div>
+                <button class="btn">Join The Lesson</button>
+            </div>
+
+            <!-- Individual Lessons -->
+            <div class="card">
+                <h3>INDIVIDUAL LESSONS</h3>
+                <p>Duration of classes - 90 minutes</p>
+                <div class="price">100$</div>
+                <button class="btn">Join The Lesson</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

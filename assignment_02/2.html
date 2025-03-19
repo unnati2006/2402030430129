@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .container {
+            text-align: center;
+            max-width: 900px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .feature {
+            flex: 1;
+            padding: 20px;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            background-color: #d4f5d4;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 10px;
+        }
+        .icon img {
+            width: 24px;
+            height: 24px;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            color: gray;
+            max-width: 200px;
+            margin: 0 auto;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>How It Works</h2>
+        <div class="features">
+            <div class="feature">
+                <div class="icon">
+                    <img src="ai-icon.png" alt="AI Icon">
+                </div>
+                <h3>AI Analysis</h3>
+                <p>Our AI analyzes your fitness level and goals to create personalized challenges.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">
+                    <img src="progress-icon.png" alt="Progress Icon">
+                </div>
+                <h3>Track Progress</h3>
+                <p>Monitor your improvements with detailed analytics and progress tracking.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">
+                    <img src="community-icon.png" alt="Community Icon">
+                </div>
+                <h3>Community</h3>
+                <p>Join a community of fitness enthusiasts and share your achievements.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
